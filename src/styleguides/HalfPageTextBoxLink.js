@@ -24,9 +24,7 @@ border-radius: 20px;
 export default function styledLink(props){
     return(
 
-    <HalfPageTextBox 
-    background={props.background}
-    >
+    <HalfPageTextBox background={props.background}>
     <StyledLink to={props.src}> {props.children}</StyledLink>
     </HalfPageTextBox>
     )

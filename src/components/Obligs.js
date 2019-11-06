@@ -11,7 +11,6 @@ height: 60vw;
 export default function(){
  return(
      <LocalWrap>
-
 <HalfPageTextBox src="/valg/obligger/oblig-en">
 Oblig 1
 </HalfPageTextBox>   

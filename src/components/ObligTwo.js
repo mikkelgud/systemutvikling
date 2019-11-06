@@ -49,7 +49,8 @@ export default function(){
  return(
      <LocalWrap>
          <TextBox>
-             <StyledHeader>Oppgave 1: Klassediagram</StyledHeader>
+         <StyledHeader>Oblig 2</StyledHeader>
+         <StyledHeader>Oppgave 1: Klassediagram</StyledHeader>
              <StyledText>
 Lag et klassediagram for systemet. Ta med assosiasjoner mellom klassene, 
 og metoder og attributter til hver klasse. Husk at dere kan skrive egne forutsetninger,
@@ -58,7 +59,6 @@ og metoder og attributter til hver klasse. Husk at dere kan skrive egne forutset
  </StyledText>
  <StyledImage src={klassediagram}/>
          </TextBox>
-
          <TextBox>
          <StyledHeader>Oppgave 2: Sekvensdiagram</StyledHeader>
          <StyledText>
